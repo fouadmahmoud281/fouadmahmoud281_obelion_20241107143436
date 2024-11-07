@@ -1,0 +1,8 @@
+CREATE TABLE blog_posts (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  title VARCHAR(255) NOT NULL,
+  content TEXT NOT NULL,
+  tags VARCHAR(255),
+  image VARCHAR(255),
+  isPublished BOOLEAN DEFAULT FALSE
+);

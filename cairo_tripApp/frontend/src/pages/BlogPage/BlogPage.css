@@ -1,0 +1,114 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.blog-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 24px;
+  color: #444;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.navigation ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 10px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.navigation a:hover {
+  color: #0056b3;
+}
+
+.editor {
+  margin-bottom: 20px;
+}
+
+.editor input[type="text"],
+.editor textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.editor textarea {
+  height: 150px;
+  resize: vertical;
+}
+
+.editor input[type="file"] {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.actions button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.actions button:hover {
+  opacity: 0.9;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px 0;
+  border-top: 1px solid #e0e0e0;
+  margin-top: 20px;
+}
+
+.footer p {
+  margin: 0;
+  padding: 5px 0;
+  color: #888;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #007bff;
+  margin: 0 5px;
+}
+
+.footer a:hover {
+  color: #0056b3;
+}
